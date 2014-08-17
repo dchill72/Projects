@@ -1,0 +1,206 @@
+﻿
+#eastridge-megamenu {
+	color:white;	
+	background-color:#496A4F;
+	display:none;
+}
+
+#ermm-topnav a {
+	text-decoration: none;
+	color:white;
+}
+
+#eastridge-megamenu ul {
+	display: block;
+	list-style-type: disc;	
+	list-style: none;
+	position:relative;
+	-webkit-padding-start: 0px !important;
+	padding:0px !important;
+	padding-left:0px !important;
+}
+
+ul#ermm-topnav {
+	display: block;
+	list-style-type: disc;	
+	list-style: none;
+	position:relative;
+	-webkit-padding-start: 20px !important;
+	padding:0px !important;
+	padding-left:20px !important;
+
+}
+
+ul#ermm-topnav > li {
+	display: block;
+	float: left;
+	position: relative;
+	line-height:30px;
+}
+
+ul#ermm-topnav > li.hovering
+{
+    background: none repeat scroll 0 0 #229134;
+    transition: background-color 0.3s ease 0s;
+
+}
+
+ul#ermm-topnav li > div
+{
+    position: absolute;
+    left: 0px;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 0 4px #777777;
+}
+
+ul#ermm-topnav li > div
+{
+    min-width: 188px;
+    background-color: #229134;
+    font-size: 14px;
+}
+
+ul#ermm-topnav li.hovering > div
+{
+    display: block;
+    z-index: 999;
+}
+
+ul#ermm-topnav li.flyout > div
+{
+    top: 0px;
+    left: 188px;
+    background-color: #38b44c;
+}
+
+ul#ermm-topnav ul.level2
+{
+	width:188px;
+}
+
+ul#ermm-topnav ul.level2 > li > a
+{
+    padding: 8px 5px;
+    display: block;
+    color: #f2f2f2;
+    line-height: 1.2em;
+}
+
+ul#ermm-topnav ul.level2 > li.hovering > a
+{
+    background-color: #38b44c;
+    color: #fff;
+    transition: background-color 0.3s ease 0s;
+}
+
+ul#ermm-topnav .flyout .col1
+{
+    min-width: 180px;
+}
+ul#ermm-topnav .flyout .col2
+{
+    min-width: 360px;
+}
+
+ul#ermm-topnav ul.level3
+{
+    min-width:160px;
+    /*width:100%;*/
+    float: left;
+    padding: 0 10px 10px 10px !important;
+}
+
+ul#ermm-topnav ul.level3 > li
+{
+	padding-top:4px;	
+	min-width:188px;
+	float:left;
+}
+
+ul#ermm-topnav ul.level3 > li > a
+{
+    color: #868f98;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.2em;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 15px 4px 15px;
+    display: block;
+    background-image: url('../images/arrow-right-gray.png');
+    background-repeat: no-repeat;
+    background-position: 3px 9px;
+    line-height: 1.3em;
+}
+
+ul#ermm-topnav ul.level3 > li > a:hover
+{
+    color: #fff;
+    background-color: #47C15B;
+    transition: background-color 0.3s ease 0s;
+}
+
+#megamenu-blackoverlay {
+   display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+#megamenu-admin-container{
+	display:none;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 300px;
+    height: 160px;
+    padding: 16px;
+    border: 16px solid 868f98;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;	
+     -moz-opacity: 1;
+    opacity:1;
+    filter: alpha(opacity=100);
+
+}
+
+#megamenu-admin-container thead{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#868f98;
+}
+
+#megamenu-admin-table{
+	width:100%;
+}
+
+#megamenu-admin-table textarea {
+	width:200px;
+}
+
+#suiteBarLeft {
+	background-color: #496A4F  !important;
+}
+
+.ms-core-needIEFilter #suiteBarLeft {
+    filter:none;
+    background-color: rgb(51, 153, 51) !important;
+}
+
+.ms-core-suiteLink-a:hover {
+	background: none repeat scroll 0 0 #229134;
+    transition: background-color 0.3s ease 0s;
+
+}
+
